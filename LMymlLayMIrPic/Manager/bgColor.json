@@ -1,0 +1,65 @@
+
+[
+     
+    {
+        "thumbName": "#FFFFFF",
+        "bigName": "#FFFFFF",
+        "isPro": false
+    },
+    {
+        "thumbName": "#FFF46F",
+        "bigName": "#FFF46F",
+        "isPro": false
+    },
+    {
+        "thumbName": "#FFE52D",
+        "bigName": "#FFE52D",
+        "isPro": true
+    },
+    {
+        "thumbName": "#FF7743",
+        "bigName": "#FF7743",
+        "isPro": true
+    },
+    {
+        "thumbName": "#FF5200",
+        "bigName": "#FF5200",
+        "isPro": true
+    },
+    {
+        "thumbName": "#FF5854",
+        "bigName": "#FF5854",
+        "isPro": true
+    },
+    {
+        "thumbName": "#FF6196",
+        "bigName": "#FF6196",
+        "isPro": true
+    },
+    {
+        "thumbName": "#EF89FF",
+        "bigName": "#EF89FF",
+        "isPro": true
+    },
+    {
+        "thumbName": "#AEFF4B",
+        "bigName": "#AEFF4B",
+        "isPro": true
+    },
+    {
+        "thumbName": "#5BFED9",
+        "bigName": "#5BFED9",
+        "isPro": true
+    },
+    {
+        "thumbName": "#27F1C6",
+        "bigName": "#27F1C6",
+        "isPro": true
+    },
+    {
+        "thumbName": "#01FFFF",
+        "bigName": "#01FFFF",
+        "isPro": true
+    }
+]
+

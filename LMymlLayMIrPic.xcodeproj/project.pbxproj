@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE58FF83DB036E4CFA59F23D /* Pods_LMymlLayMIrPic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C85B1D29CBF2BA309090C5 /* Pods_LMymlLayMIrPic.framework */; };
+		EB960C6226E0755900EDB86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C6126E0755900EDB86A /* AppDelegate.swift */; };
+		EB960C6426E0755900EDB86A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C6326E0755900EDB86A /* SceneDelegate.swift */; };
+		EB960C6626E0755900EDB86A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C6526E0755900EDB86A /* ViewController.swift */; };
+		EB960C6926E0755900EDB86A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB960C6726E0755900EDB86A /* Main.storyboard */; };
+		EB960C6B26E0755C00EDB86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB960C6A26E0755C00EDB86A /* Assets.xcassets */; };
+		EB960C6E26E0755C00EDB86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB960C6C26E0755C00EDB86A /* LaunchScreen.storyboard */; };
+		EB960C7826E0761700EDB86A /* LmYmMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C7726E0761700EDB86A /* LmYmMainVC.swift */; };
+		EB960CAD26E0762600EDB86A /* InnLoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C7C26E0762600EDB86A /* InnLoginHandler.swift */; };
+		EB960CAE26E0762600EDB86A /* Untitled.html in Resources */ = {isa = PBXBuildFile; fileRef = EB960C7D26E0762600EDB86A /* Untitled.html */; };
+		EB960CAF26E0762600EDB86A /* InnTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C7E26E0762600EDB86A /* InnTextView.swift */; };
+		EB960CB026E0762600EDB86A /* InnNativeWebLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C7F26E0762600EDB86A /* InnNativeWebLoginViewController.swift */; };
+		EB960CB126E0762600EDB86A /* InnTwoFactorLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8026E0762600EDB86A /* InnTwoFactorLoginView.swift */; };
+		EB960CB226E0762600EDB86A /* VC+Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8226E0762600EDB86A /* VC+Route.swift */; };
+		EB960CB326E0762600EDB86A /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8326E0762600EDB86A /* SwiftyTimer.swift */; };
+		EB960CB426E0762600EDB86A /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8426E0762600EDB86A /* Foundation+Extension.swift */; };
+		EB960CB526E0762600EDB86A /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8526E0762600EDB86A /* UIKitExtension.swift */; };
+		EB960CB626E0762600EDB86A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8626E0762600EDB86A /* StringExtension.swift */; };
+		EB960CB726E0762600EDB86A /* loding2.webp in Resources */ = {isa = PBXBuildFile; fileRef = EB960C8726E0762600EDB86A /* loding2.webp */; };
+		EB960CB826E0762600EDB86A /* InnLoginChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8826E0762600EDB86A /* InnLoginChallengeView.swift */; };
+		EB960CB926E0762600EDB86A /* PublicFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8A26E0762600EDB86A /* PublicFile.swift */; };
+		EB960CBA26E0762600EDB86A /* InnRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8C26E0762600EDB86A /* InnRequestHelper.swift */; };
+		EB960CBB26E0762600EDB86A /* Loding1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB960C8D26E0762600EDB86A /* Loding1.gif */; };
+		EB960CBC26E0762600EDB86A /* InnLoginVerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C8E26E0762600EDB86A /* InnLoginVerifyCodeView.swift */; };
+		EB960CBD26E0762600EDB86A /* ic_a_c@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9026E0762600EDB86A /* ic_a_c@3x.png */; };
+		EB960CBE26E0762600EDB86A /* login.html in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9126E0762600EDB86A /* login.html */; };
+		EB960CBF26E0762600EDB86A /* ic_a_c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9226E0762600EDB86A /* ic_a_c@2x.png */; };
+		EB960CC026E0762600EDB86A /* log_in_close_ic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9326E0762600EDB86A /* log_in_close_ic@3x.png */; };
+		EB960CC126E0762600EDB86A /* ic_c_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9426E0762600EDB86A /* ic_c_s@3x.png */; };
+		EB960CC226E0762600EDB86A /* ic_c_us@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9526E0762600EDB86A /* ic_c_us@3x.png */; };
+		EB960CC326E0762600EDB86A /* dialog-main.css in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9626E0762600EDB86A /* dialog-main.css */; };
+		EB960CC426E0762600EDB86A /* ic_c_us@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9726E0762600EDB86A /* ic_c_us@2x.png */; };
+		EB960CC526E0762600EDB86A /* ic_c_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9826E0762600EDB86A /* ic_c_s@2x.png */; };
+		EB960CC626E0762600EDB86A /* log_in_close_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9926E0762600EDB86A /* log_in_close_ic@2x.png */; };
+		EB960CC726E0762600EDB86A /* f000029293.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9A26E0762600EDB86A /* f000029293.png */; };
+		EB960CC826E0762600EDB86A /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9B26E0762600EDB86A /* detail.html */; };
+		EB960CC926E0762600EDB86A /* ic_c_c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9C26E0762600EDB86A /* ic_c_c@2x.png */; };
+		EB960CCA26E0762600EDB86A /* InnLoginSubviews.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9D26E0762600EDB86A /* InnLoginSubviews.xib */; };
+		EB960CCB26E0762600EDB86A /* ic_c_c@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB960C9E26E0762600EDB86A /* ic_c_c@3x.png */; };
+		EB960CCC26E0762600EDB86A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960C9F26E0762600EDB86A /* LoadingView.swift */; };
+		EB960CCD26E0762600EDB86A /* InnLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CA026E0762600EDB86A /* InnLoginViewController.swift */; };
+		EB960CCE26E0762600EDB86A /* HightLigtingUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CA226E0762600EDB86A /* HightLigtingUserManager.swift */; };
+		EB960CCF26E0762600EDB86A /* HightLigtingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CA326E0762600EDB86A /* HightLigtingHelper.swift */; };
+		EB960CD026E0762600EDB86A /* HightLightingPriceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CA426E0762600EDB86A /* HightLightingPriceManager.swift */; };
+		EB960CD126E0762600EDB86A /* AppIapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CA626E0762600EDB86A /* AppIapConfig.swift */; };
+		EB960CD226E0762600EDB86A /* DataEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CA726E0762600EDB86A /* DataEncoding.swift */; };
+		EB960CD326E0762600EDB86A /* ASAManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CA826E0762600EDB86A /* ASAManage.swift */; };
+		EB960CD426E0762600EDB86A /* AdjustConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = EB960CA926E0762600EDB86A /* AdjustConfig.json */; };
+		EB960CD526E0762600EDB86A /* HighLightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CAA26E0762600EDB86A /* HighLightingViewController.swift */; };
+		EB960CD626E0762600EDB86A /* HightLightingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CAB26E0762600EDB86A /* HightLightingExtension.swift */; };
+		EB960CD726E0762600EDB86A /* AFlyerLibManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CAC26E0762600EDB86A /* AFlyerLibManage.swift */; };
+		EB960CE326E0774C00EDB86A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CD926E0774B00EDB86A /* DataManager.swift */; };
+		EB960CE726E0774C00EDB86A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB960CDD26E0774C00EDB86A /* GoogleService-Info.plist */; };
+		EB960CE826E0774C00EDB86A /* LMymCoinMana.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CDE26E0774C00EDB86A /* LMymCoinMana.swift */; };
+		EB960CEA26E0774C00EDB86A /* KeyCChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CE026E0774C00EDB86A /* KeyCChain.swift */; };
+		EB960CEB26E0774C00EDB86A /* LMymAppeLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CE126E0774C00EDB86A /* LMymAppeLoginManager.swift */; };
+		EB960CEC26E0774C00EDB86A /* APpLginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CE226E0774C00EDB86A /* APpLginVC.swift */; };
+		EB960CF026E0792000EDB86A /* LmymStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CEF26E0792000EDB86A /* LmymStoreVC.swift */; };
+		EB960CF426E0798700EDB86A /* TEst.m in Sources */ = {isa = PBXBuildFile; fileRef = EB960CF326E0798700EDB86A /* TEst.m */; };
+		EB960CF626E0799C00EDB86A /* LmExtensionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960CF526E0799C00EDB86A /* LmExtensionTool.swift */; };
+		EB960CF826E079A900EDB86A /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EB960CF726E079A900EDB86A /* SF-Pro-Text-Bold.otf */; };
+		EB960CFD26E0AB1200EDB86A /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB960CFA26E0AB1100EDB86A /* Inter-Black.ttf */; };
+		EB960CFE26E0AB1200EDB86A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB960CFB26E0AB1100EDB86A /* Inter-Regular.ttf */; };
+		EB960CFF26E0AB1200EDB86A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB960CFC26E0AB1200EDB86A /* Inter-SemiBold.ttf */; };
+		EB960D0126E0B9F500EDB86A /* LmYmTypePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D0026E0B9F500EDB86A /* LmYmTypePreviewVC.swift */; };
+		EB960D0426E0BA5600EDB86A /* LmYmUNlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D0326E0BA5600EDB86A /* LmYmUNlockView.swift */; };
+		EB960D0626E0BD3000EDB86A /* ITContentUnlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D0526E0BD3000EDB86A /* ITContentUnlockManager.swift */; };
+		EB960D0826E0BD8200EDB86A /* DaLMymDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D0726E0BD8200EDB86A /* DaLMymDataManager.swift */; };
+		EB960D0B26E0BDA900EDB86A /* LMyLayoutEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D0926E0BDA800EDB86A /* LMyLayoutEditVC.swift */; };
+		EB960D0C26E0BDA900EDB86A /* LMyMirrorEffectEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D0A26E0BDA800EDB86A /* LMyMirrorEffectEditVC.swift */; };
+		EB960D1126E0BDDB00EDB86A /* bgColorImg.json in Resources */ = {isa = PBXBuildFile; fileRef = EB960D0D26E0BDDB00EDB86A /* bgColorImg.json */; };
+		EB960D1226E0BDDB00EDB86A /* layoutStyleList.json in Resources */ = {isa = PBXBuildFile; fileRef = EB960D0E26E0BDDB00EDB86A /* layoutStyleList.json */; };
+		EB960D1326E0BDDB00EDB86A /* mirrorSticker.json in Resources */ = {isa = PBXBuildFile; fileRef = EB960D0F26E0BDDB00EDB86A /* mirrorSticker.json */; };
+		EB960D1426E0BDDB00EDB86A /* bgColor.json in Resources */ = {isa = PBXBuildFile; fileRef = EB960D1026E0BDDB00EDB86A /* bgColor.json */; };
+		EB960D1626E0BE5100EDB86A /* LMyLayoutCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D1526E0BE5100EDB86A /* LMyLayoutCanvasView.swift */; };
+		EB960D1826E0BE7800EDB86A /* LmYmLayoutBgColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D1726E0BE7800EDB86A /* LmYmLayoutBgColorView.swift */; };
+		EB960D1A26E0BF2800EDB86A /* LyLYmALayoutDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D1926E0BF2800EDB86A /* LyLYmALayoutDataManager.swift */; };
+		EB960D2426E0C04900EDB86A /* LMyLayoutWaterMarkBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D1B26E0C04800EDB86A /* LMyLayoutWaterMarkBar.swift */; };
+		EB960D2526E0C04900EDB86A /* LMyLayoutWatermarkOverlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D1C26E0C04800EDB86A /* LMyLayoutWatermarkOverlayer.swift */; };
+		EB960D2626E0C04900EDB86A /* LMyMirrorEffectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D1D26E0C04800EDB86A /* LMyMirrorEffectBar.swift */; };
+		EB960D2726E0C04900EDB86A /* LMyMirrorEditCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D1E26E0C04800EDB86A /* LMyMirrorEditCanvasView.swift */; };
+		EB960D2826E0C04900EDB86A /* LMyLayoutMirrorEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D1F26E0C04800EDB86A /* LMyLayoutMirrorEffectView.swift */; };
+		EB960D2926E0C04900EDB86A /* LMyMirrorStickerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D2026E0C04800EDB86A /* LMyMirrorStickerBar.swift */; };
+		EB960D2A26E0C04900EDB86A /* LMyLayoutBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D2126E0C04800EDB86A /* LMyLayoutBorderView.swift */; };
+		EB960D2B26E0C04900EDB86A /* LMyMirrorPatternBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D2226E0C04900EDB86A /* LMyMirrorPatternBar.swift */; };
+		EB960D2C26E0C04900EDB86A /* LMyMirrorBorderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D2326E0C04900EDB86A /* LMyMirrorBorderBar.swift */; };
+		EB960D3226E0C27800EDB86A /* IHymStickerTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D2E26E0C27800EDB86A /* IHymStickerTouchView.swift */; };
+		EB960D3326E0C27800EDB86A /* IHymTextTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D2F26E0C27800EDB86A /* IHymTextTouchView.swift */; };
+		EB960D3426E0C27800EDB86A /* IHymTouchStuffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D3026E0C27800EDB86A /* IHymTouchStuffView.swift */; };
+		EB960D3526E0C27800EDB86A /* IHymAddonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960D3126E0C27800EDB86A /* IHymAddonManager.swift */; };
+		EB960D4826E0C29900EDB86A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EB960D3926E0C29900EDB86A /* UIView+Frame.m */; };
+		EB960D4926E0C29900EDB86A /* UIColor+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB960D3A26E0C29900EDB86A /* UIColor+SSToolkitAdditions.m */; };
+		EB960D4A26E0C29900EDB86A /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB960D3E26E0C29900EDB86A /* MaskView.m */; };
+		EB960D4B26E0C29900EDB86A /* MaskConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB960D3F26E0C29900EDB86A /* MaskConfigManager.m */; };
+		EB960D4C26E0C29900EDB86A /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB960D4026E0C29900EDB86A /* TouchView.m */; };
+		EB960D4D26E0C29900EDB86A /* TouchStuffView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB960D4626E0C29900EDB86A /* TouchStuffView.m */; };
+		EB960D4E26E0C29900EDB86A /* TouchStuffViewPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB960D4726E0C29900EDB86A /* TouchStuffViewPrivate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58C85B1D29CBF2BA309090C5 /* Pods_LMymlLayMIrPic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMymlLayMIrPic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9FF0F1AF5CB7BAD8794CD5 /* Pods-LMymlLayMIrPic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMymlLayMIrPic.release.xcconfig"; path = "Target Support Files/Pods-LMymlLayMIrPic/Pods-LMymlLayMIrPic.release.xcconfig"; sourceTree = "<group>"; };
+		922B1B48809AF2B4650A025F /* Pods-LMymlLayMIrPic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMymlLayMIrPic.debug.xcconfig"; path = "Target Support Files/Pods-LMymlLayMIrPic/Pods-LMymlLayMIrPic.debug.xcconfig"; sourceTree = "<group>"; };
+		EB960C5E26E0755900EDB86A /* LMymlLayMIrPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMymlLayMIrPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB960C6126E0755900EDB86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB960C6326E0755900EDB86A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB960C6526E0755900EDB86A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB960C6826E0755900EDB86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB960C6A26E0755C00EDB86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB960C6D26E0755C00EDB86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB960C6F26E0755C00EDB86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB960C7726E0761700EDB86A /* LmYmMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LmYmMainVC.swift; sourceTree = "<group>"; };
+		EB960C7C26E0762600EDB86A /* InnLoginHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnLoginHandler.swift; sourceTree = "<group>"; };
+		EB960C7D26E0762600EDB86A /* Untitled.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Untitled.html; sourceTree = "<group>"; };
+		EB960C7E26E0762600EDB86A /* InnTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnTextView.swift; sourceTree = "<group>"; };
+		EB960C7F26E0762600EDB86A /* InnNativeWebLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnNativeWebLoginViewController.swift; sourceTree = "<group>"; };
+		EB960C8026E0762600EDB86A /* InnTwoFactorLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnTwoFactorLoginView.swift; sourceTree = "<group>"; };
+		EB960C8226E0762600EDB86A /* VC+Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VC+Route.swift"; sourceTree = "<group>"; };
+		EB960C8326E0762600EDB86A /* SwiftyTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyTimer.swift; sourceTree = "<group>"; };
+		EB960C8426E0762600EDB86A /* Foundation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
+		EB960C8526E0762600EDB86A /* UIKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		EB960C8626E0762600EDB86A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		EB960C8726E0762600EDB86A /* loding2.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = loding2.webp; sourceTree = "<group>"; };
+		EB960C8826E0762600EDB86A /* InnLoginChallengeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnLoginChallengeView.swift; sourceTree = "<group>"; };
+		EB960C8A26E0762600EDB86A /* PublicFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicFile.swift; sourceTree = "<group>"; };
+		EB960C8C26E0762600EDB86A /* InnRequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnRequestHelper.swift; sourceTree = "<group>"; };
+		EB960C8D26E0762600EDB86A /* Loding1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loding1.gif; sourceTree = "<group>"; };
+		EB960C8E26E0762600EDB86A /* InnLoginVerifyCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnLoginVerifyCodeView.swift; sourceTree = "<group>"; };
+		EB960C9026E0762600EDB86A /* ic_a_c@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_a_c@3x.png"; sourceTree = "<group>"; };
+		EB960C9126E0762600EDB86A /* login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
+		EB960C9226E0762600EDB86A /* ic_a_c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_a_c@2x.png"; sourceTree = "<group>"; };
+		EB960C9326E0762600EDB86A /* log_in_close_ic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log_in_close_ic@3x.png"; sourceTree = "<group>"; };
+		EB960C9426E0762600EDB86A /* ic_c_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_s@3x.png"; sourceTree = "<group>"; };
+		EB960C9526E0762600EDB86A /* ic_c_us@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_us@3x.png"; sourceTree = "<group>"; };
+		EB960C9626E0762600EDB86A /* dialog-main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "dialog-main.css"; sourceTree = "<group>"; };
+		EB960C9726E0762600EDB86A /* ic_c_us@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_us@2x.png"; sourceTree = "<group>"; };
+		EB960C9826E0762600EDB86A /* ic_c_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_s@2x.png"; sourceTree = "<group>"; };
+		EB960C9926E0762600EDB86A /* log_in_close_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log_in_close_ic@2x.png"; sourceTree = "<group>"; };
+		EB960C9A26E0762600EDB86A /* f000029293.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f000029293.png; sourceTree = "<group>"; };
+		EB960C9B26E0762600EDB86A /* detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detail.html; sourceTree = "<group>"; };
+		EB960C9C26E0762600EDB86A /* ic_c_c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_c@2x.png"; sourceTree = "<group>"; };
+		EB960C9D26E0762600EDB86A /* InnLoginSubviews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InnLoginSubviews.xib; sourceTree = "<group>"; };
+		EB960C9E26E0762600EDB86A /* ic_c_c@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_c_c@3x.png"; sourceTree = "<group>"; };
+		EB960C9F26E0762600EDB86A /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EB960CA026E0762600EDB86A /* InnLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnLoginViewController.swift; sourceTree = "<group>"; };
+		EB960CA226E0762600EDB86A /* HightLigtingUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HightLigtingUserManager.swift; sourceTree = "<group>"; };
+		EB960CA326E0762600EDB86A /* HightLigtingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HightLigtingHelper.swift; sourceTree = "<group>"; };
+		EB960CA426E0762600EDB86A /* HightLightingPriceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HightLightingPriceManager.swift; sourceTree = "<group>"; };
+		EB960CA526E0762600EDB86A /* HighLighting-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HighLighting-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB960CA626E0762600EDB86A /* AppIapConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIapConfig.swift; sourceTree = "<group>"; };
+		EB960CA726E0762600EDB86A /* DataEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEncoding.swift; sourceTree = "<group>"; };
+		EB960CA826E0762600EDB86A /* ASAManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAManage.swift; sourceTree = "<group>"; };
+		EB960CA926E0762600EDB86A /* AdjustConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AdjustConfig.json; sourceTree = "<group>"; };
+		EB960CAA26E0762600EDB86A /* HighLightingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighLightingViewController.swift; sourceTree = "<group>"; };
+		EB960CAB26E0762600EDB86A /* HightLightingExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HightLightingExtension.swift; sourceTree = "<group>"; };
+		EB960CAC26E0762600EDB86A /* AFlyerLibManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFlyerLibManage.swift; sourceTree = "<group>"; };
+		EB960CD926E0774B00EDB86A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EB960CDD26E0774C00EDB86A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EB960CDE26E0774C00EDB86A /* LMymCoinMana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMymCoinMana.swift; sourceTree = "<group>"; };
+		EB960CE026E0774C00EDB86A /* KeyCChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCChain.swift; sourceTree = "<group>"; };
+		EB960CE126E0774C00EDB86A /* LMymAppeLoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMymAppeLoginManager.swift; sourceTree = "<group>"; };
+		EB960CE226E0774C00EDB86A /* APpLginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APpLginVC.swift; sourceTree = "<group>"; };
+		EB960CEF26E0792000EDB86A /* LmymStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LmymStoreVC.swift; sourceTree = "<group>"; };
+		EB960CF126E0798700EDB86A /* LMymlLayMIrPic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LMymlLayMIrPic-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB960CF226E0798700EDB86A /* TEst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEst.h; sourceTree = "<group>"; };
+		EB960CF326E0798700EDB86A /* TEst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEst.m; sourceTree = "<group>"; };
+		EB960CF526E0799C00EDB86A /* LmExtensionTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LmExtensionTool.swift; sourceTree = "<group>"; };
+		EB960CF726E079A900EDB86A /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		EB960CF926E079BF00EDB86A /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		EB960CFA26E0AB1100EDB86A /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		EB960CFB26E0AB1100EDB86A /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		EB960CFC26E0AB1200EDB86A /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		EB960D0026E0B9F500EDB86A /* LmYmTypePreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LmYmTypePreviewVC.swift; sourceTree = "<group>"; };
+		EB960D0326E0BA5600EDB86A /* LmYmUNlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LmYmUNlockView.swift; sourceTree = "<group>"; };
+		EB960D0526E0BD3000EDB86A /* ITContentUnlockManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITContentUnlockManager.swift; sourceTree = "<group>"; };
+		EB960D0726E0BD8200EDB86A /* DaLMymDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaLMymDataManager.swift; sourceTree = "<group>"; };
+		EB960D0926E0BDA800EDB86A /* LMyLayoutEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyLayoutEditVC.swift; sourceTree = "<group>"; };
+		EB960D0A26E0BDA800EDB86A /* LMyMirrorEffectEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyMirrorEffectEditVC.swift; sourceTree = "<group>"; };
+		EB960D0D26E0BDDB00EDB86A /* bgColorImg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bgColorImg.json; sourceTree = "<group>"; };
+		EB960D0E26E0BDDB00EDB86A /* layoutStyleList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = layoutStyleList.json; sourceTree = "<group>"; };
+		EB960D0F26E0BDDB00EDB86A /* mirrorSticker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mirrorSticker.json; sourceTree = "<group>"; };
+		EB960D1026E0BDDB00EDB86A /* bgColor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bgColor.json; sourceTree = "<group>"; };
+		EB960D1526E0BE5100EDB86A /* LMyLayoutCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyLayoutCanvasView.swift; sourceTree = "<group>"; };
+		EB960D1726E0BE7800EDB86A /* LmYmLayoutBgColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LmYmLayoutBgColorView.swift; sourceTree = "<group>"; };
+		EB960D1926E0BF2800EDB86A /* LyLYmALayoutDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyLYmALayoutDataManager.swift; sourceTree = "<group>"; };
+		EB960D1B26E0C04800EDB86A /* LMyLayoutWaterMarkBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyLayoutWaterMarkBar.swift; sourceTree = "<group>"; };
+		EB960D1C26E0C04800EDB86A /* LMyLayoutWatermarkOverlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyLayoutWatermarkOverlayer.swift; sourceTree = "<group>"; };
+		EB960D1D26E0C04800EDB86A /* LMyMirrorEffectBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyMirrorEffectBar.swift; sourceTree = "<group>"; };
+		EB960D1E26E0C04800EDB86A /* LMyMirrorEditCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyMirrorEditCanvasView.swift; sourceTree = "<group>"; };
+		EB960D1F26E0C04800EDB86A /* LMyLayoutMirrorEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyLayoutMirrorEffectView.swift; sourceTree = "<group>"; };
+		EB960D2026E0C04800EDB86A /* LMyMirrorStickerBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyMirrorStickerBar.swift; sourceTree = "<group>"; };
+		EB960D2126E0C04800EDB86A /* LMyLayoutBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyLayoutBorderView.swift; sourceTree = "<group>"; };
+		EB960D2226E0C04900EDB86A /* LMyMirrorPatternBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyMirrorPatternBar.swift; sourceTree = "<group>"; };
+		EB960D2326E0C04900EDB86A /* LMyMirrorBorderBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMyMirrorBorderBar.swift; sourceTree = "<group>"; };
+		EB960D2E26E0C27800EDB86A /* IHymStickerTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IHymStickerTouchView.swift; sourceTree = "<group>"; };
+		EB960D2F26E0C27800EDB86A /* IHymTextTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IHymTextTouchView.swift; sourceTree = "<group>"; };
+		EB960D3026E0C27800EDB86A /* IHymTouchStuffView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IHymTouchStuffView.swift; sourceTree = "<group>"; };
+		EB960D3126E0C27800EDB86A /* IHymAddonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IHymAddonManager.swift; sourceTree = "<group>"; };
+		EB960D3826E0C29900EDB86A /* UIColor+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		EB960D3926E0C29900EDB86A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EB960D3A26E0C29900EDB86A /* UIColor+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		EB960D3B26E0C29900EDB86A /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EB960D3E26E0C29900EDB86A /* MaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskView.m; sourceTree = "<group>"; };
+		EB960D3F26E0C29900EDB86A /* MaskConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskConfigManager.m; sourceTree = "<group>"; };
+		EB960D4026E0C29900EDB86A /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		EB960D4126E0C29900EDB86A /* MaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskView.h; sourceTree = "<group>"; };
+		EB960D4226E0C29900EDB86A /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		EB960D4326E0C29900EDB86A /* MaskConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskConfigManager.h; sourceTree = "<group>"; };
+		EB960D4426E0C29900EDB86A /* TouchStuffViewPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchStuffViewPrivate.h; sourceTree = "<group>"; };
+		EB960D4526E0C29900EDB86A /* TouchStuffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchStuffView.h; sourceTree = "<group>"; };
+		EB960D4626E0C29900EDB86A /* TouchStuffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchStuffView.m; sourceTree = "<group>"; };
+		EB960D4726E0C29900EDB86A /* TouchStuffViewPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchStuffViewPrivate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB960C5B26E0755900EDB86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE58FF83DB036E4CFA59F23D /* Pods_LMymlLayMIrPic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF145F3EA29904504CF76086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				922B1B48809AF2B4650A025F /* Pods-LMymlLayMIrPic.debug.xcconfig */,
+				5E9FF0F1AF5CB7BAD8794CD5 /* Pods-LMymlLayMIrPic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB960C5526E0755900EDB86A = {
+			isa = PBXGroup;
+			children = (
+				EB960C6026E0755900EDB86A /* LMymlLayMIrPic */,
+				EB960C5F26E0755900EDB86A /* Products */,
+				CF145F3EA29904504CF76086 /* Pods */,
+				F32421701200DA9C129AC5C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB960C5F26E0755900EDB86A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C5E26E0755900EDB86A /* LMymlLayMIrPic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB960C6026E0755900EDB86A /* LMymlLayMIrPic */ = {
+			isa = PBXGroup;
+			children = (
+				EB960D3626E0C29900EDB86A /* OC_FILE */,
+				EB960D2D26E0C27800EDB86A /* StickerMNger */,
+				EB960CD826E0774B00EDB86A /* Manager */,
+				EB960C7926E0762600EDB86A /* CoreMa */,
+				EB960C7626E0760400EDB86A /* MainV */,
+				EB960C7526E075FC00EDB86A /* Roo */,
+			);
+			path = LMymlLayMIrPic;
+			sourceTree = "<group>";
+		};
+		EB960C7526E075FC00EDB86A /* Roo */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C6126E0755900EDB86A /* AppDelegate.swift */,
+				EB960C6326E0755900EDB86A /* SceneDelegate.swift */,
+				EB960C6526E0755900EDB86A /* ViewController.swift */,
+				EB960C6726E0755900EDB86A /* Main.storyboard */,
+				EB960C6A26E0755C00EDB86A /* Assets.xcassets */,
+				EB960C6C26E0755C00EDB86A /* LaunchScreen.storyboard */,
+				EB960C6F26E0755C00EDB86A /* Info.plist */,
+				EB960CF226E0798700EDB86A /* TEst.h */,
+				EB960CF326E0798700EDB86A /* TEst.m */,
+				EB960CF126E0798700EDB86A /* LMymlLayMIrPic-Bridging-Header.h */,
+				EB960CF526E0799C00EDB86A /* LmExtensionTool.swift */,
+				EB960CF726E079A900EDB86A /* SF-Pro-Text-Bold.otf */,
+				EB960CFA26E0AB1100EDB86A /* Inter-Black.ttf */,
+				EB960CFB26E0AB1100EDB86A /* Inter-Regular.ttf */,
+				EB960CFC26E0AB1200EDB86A /* Inter-SemiBold.ttf */,
+				EB960CF926E079BF00EDB86A /* Configuration.storekit */,
+			);
+			name = Roo;
+			sourceTree = "<group>";
+		};
+		EB960C7626E0760400EDB86A /* MainV */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C7726E0761700EDB86A /* LmYmMainVC.swift */,
+				EB960CEF26E0792000EDB86A /* LmymStoreVC.swift */,
+				EB960D0026E0B9F500EDB86A /* LmYmTypePreviewVC.swift */,
+				EB960D0926E0BDA800EDB86A /* LMyLayoutEditVC.swift */,
+				EB960D0A26E0BDA800EDB86A /* LMyMirrorEffectEditVC.swift */,
+				EB960D0226E0BA3D00EDB86A /* View */,
+			);
+			path = MainV;
+			sourceTree = "<group>";
+		};
+		EB960C7926E0762600EDB86A /* CoreMa */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C7A26E0762600EDB86A /* InnLogin */,
+				EB960CA126E0762600EDB86A /* HighLightingEx */,
+			);
+			path = CoreMa;
+			sourceTree = "<group>";
+		};
+		EB960C7A26E0762600EDB86A /* InnLogin */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C7B26E0762600EDB86A /* Handler */,
+				EB960C7D26E0762600EDB86A /* Untitled.html */,
+				EB960C7E26E0762600EDB86A /* InnTextView.swift */,
+				EB960C7F26E0762600EDB86A /* InnNativeWebLoginViewController.swift */,
+				EB960C8026E0762600EDB86A /* InnTwoFactorLoginView.swift */,
+				EB960C8126E0762600EDB86A /* Extenison */,
+				EB960C8726E0762600EDB86A /* loding2.webp */,
+				EB960C8826E0762600EDB86A /* InnLoginChallengeView.swift */,
+				EB960C8926E0762600EDB86A /* Public */,
+				EB960C8B26E0762600EDB86A /* Request */,
+				EB960C8D26E0762600EDB86A /* Loding1.gif */,
+				EB960C8E26E0762600EDB86A /* InnLoginVerifyCodeView.swift */,
+				EB960C8F26E0762600EDB86A /* Resource */,
+				EB960C9F26E0762600EDB86A /* LoadingView.swift */,
+				EB960CA026E0762600EDB86A /* InnLoginViewController.swift */,
+			);
+			path = InnLogin;
+			sourceTree = "<group>";
+		};
+		EB960C7B26E0762600EDB86A /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C7C26E0762600EDB86A /* InnLoginHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		EB960C8126E0762600EDB86A /* Extenison */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C8226E0762600EDB86A /* VC+Route.swift */,
+				EB960C8326E0762600EDB86A /* SwiftyTimer.swift */,
+				EB960C8426E0762600EDB86A /* Foundation+Extension.swift */,
+				EB960C8526E0762600EDB86A /* UIKitExtension.swift */,
+				EB960C8626E0762600EDB86A /* StringExtension.swift */,
+			);
+			path = Extenison;
+			sourceTree = "<group>";
+		};
+		EB960C8926E0762600EDB86A /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C8A26E0762600EDB86A /* PublicFile.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		EB960C8B26E0762600EDB86A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C8C26E0762600EDB86A /* InnRequestHelper.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		EB960C8F26E0762600EDB86A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EB960C9026E0762600EDB86A /* ic_a_c@3x.png */,
+				EB960C9126E0762600EDB86A /* login.html */,
+				EB960C9226E0762600EDB86A /* ic_a_c@2x.png */,
+				EB960C9326E0762600EDB86A /* log_in_close_ic@3x.png */,
+				EB960C9426E0762600EDB86A /* ic_c_s@3x.png */,
+				EB960C9526E0762600EDB86A /* ic_c_us@3x.png */,
+				EB960C9626E0762600EDB86A /* dialog-main.css */,
+				EB960C9726E0762600EDB86A /* ic_c_us@2x.png */,
+				EB960C9826E0762600EDB86A /* ic_c_s@2x.png */,
+				EB960C9926E0762600EDB86A /* log_in_close_ic@2x.png */,
+				EB960C9A26E0762600EDB86A /* f000029293.png */,
+				EB960C9B26E0762600EDB86A /* detail.html */,
+				EB960C9C26E0762600EDB86A /* ic_c_c@2x.png */,
+				EB960C9D26E0762600EDB86A /* InnLoginSubviews.xib */,
+				EB960C9E26E0762600EDB86A /* ic_c_c@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EB960CA126E0762600EDB86A /* HighLightingEx */ = {
+			isa = PBXGroup;
+			children = (
+				EB960CA226E0762600EDB86A /* HightLigtingUserManager.swift */,
+				EB960CA326E0762600EDB86A /* HightLigtingHelper.swift */,
+				EB960CA426E0762600EDB86A /* HightLightingPriceManager.swift */,
+				EB960CA526E0762600EDB86A /* HighLighting-Bridging-Header.h */,
+				EB960CA626E0762600EDB86A /* AppIapConfig.swift */,
+				EB960CA726E0762600EDB86A /* DataEncoding.swift */,
+				EB960CA826E0762600EDB86A /* ASAManage.swift */,
+				EB960CA926E0762600EDB86A /* AdjustConfig.json */,
+				EB960CAA26E0762600EDB86A /* HighLightingViewController.swift */,
+				EB960CAB26E0762600EDB86A /* HightLightingExtension.swift */,
+				EB960CAC26E0762600EDB86A /* AFlyerLibManage.swift */,
+			);
+			path = HighLightingEx;
+			sourceTree = "<group>";
+		};
+		EB960CD826E0774B00EDB86A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EB960CD926E0774B00EDB86A /* DataManager.swift */,
+				EB960CDD26E0774C00EDB86A /* GoogleService-Info.plist */,
+				EB960CDE26E0774C00EDB86A /* LMymCoinMana.swift */,
+				EB960CE026E0774C00EDB86A /* KeyCChain.swift */,
+				EB960CE126E0774C00EDB86A /* LMymAppeLoginManager.swift */,
+				EB960CE226E0774C00EDB86A /* APpLginVC.swift */,
+				EB960D0726E0BD8200EDB86A /* DaLMymDataManager.swift */,
+				EB960D0526E0BD3000EDB86A /* ITContentUnlockManager.swift */,
+				EB960D1926E0BF2800EDB86A /* LyLYmALayoutDataManager.swift */,
+				EB960D1026E0BDDB00EDB86A /* bgColor.json */,
+				EB960D0D26E0BDDB00EDB86A /* bgColorImg.json */,
+				EB960D0E26E0BDDB00EDB86A /* layoutStyleList.json */,
+				EB960D0F26E0BDDB00EDB86A /* mirrorSticker.json */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EB960D0226E0BA3D00EDB86A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB960D1526E0BE5100EDB86A /* LMyLayoutCanvasView.swift */,
+				EB960D1726E0BE7800EDB86A /* LmYmLayoutBgColorView.swift */,
+				EB960D2126E0C04800EDB86A /* LMyLayoutBorderView.swift */,
+				EB960D1F26E0C04800EDB86A /* LMyLayoutMirrorEffectView.swift */,
+				EB960D1B26E0C04800EDB86A /* LMyLayoutWaterMarkBar.swift */,
+				EB960D1C26E0C04800EDB86A /* LMyLayoutWatermarkOverlayer.swift */,
+				EB960D2326E0C04900EDB86A /* LMyMirrorBorderBar.swift */,
+				EB960D1E26E0C04800EDB86A /* LMyMirrorEditCanvasView.swift */,
+				EB960D1D26E0C04800EDB86A /* LMyMirrorEffectBar.swift */,
+				EB960D2226E0C04900EDB86A /* LMyMirrorPatternBar.swift */,
+				EB960D2026E0C04800EDB86A /* LMyMirrorStickerBar.swift */,
+				EB960D0326E0BA5600EDB86A /* LmYmUNlockView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB960D2D26E0C27800EDB86A /* StickerMNger */ = {
+			isa = PBXGroup;
+			children = (
+				EB960D2E26E0C27800EDB86A /* IHymStickerTouchView.swift */,
+				EB960D2F26E0C27800EDB86A /* IHymTextTouchView.swift */,
+				EB960D3026E0C27800EDB86A /* IHymTouchStuffView.swift */,
+				EB960D3126E0C27800EDB86A /* IHymAddonManager.swift */,
+			);
+			path = StickerMNger;
+			sourceTree = "<group>";
+		};
+		EB960D3626E0C29900EDB86A /* OC_FILE */ = {
+			isa = PBXGroup;
+			children = (
+				EB960D3726E0C29900EDB86A /* Category */,
+				EB960D3C26E0C29900EDB86A /* TouchView */,
+			);
+			path = OC_FILE;
+			sourceTree = "<group>";
+		};
+		EB960D3726E0C29900EDB86A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EB960D3826E0C29900EDB86A /* UIColor+SSToolkitAdditions.h */,
+				EB960D3926E0C29900EDB86A /* UIView+Frame.m */,
+				EB960D3A26E0C29900EDB86A /* UIColor+SSToolkitAdditions.m */,
+				EB960D3B26E0C29900EDB86A /* UIView+Frame.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EB960D3C26E0C29900EDB86A /* TouchView */ = {
+			isa = PBXGroup;
+			children = (
+				EB960D3D26E0C29900EDB86A /* Paint */,
+				EB960D4426E0C29900EDB86A /* TouchStuffViewPrivate.h */,
+				EB960D4526E0C29900EDB86A /* TouchStuffView.h */,
+				EB960D4626E0C29900EDB86A /* TouchStuffView.m */,
+				EB960D4726E0C29900EDB86A /* TouchStuffViewPrivate.m */,
+			);
+			path = TouchView;
+			sourceTree = "<group>";
+		};
+		EB960D3D26E0C29900EDB86A /* Paint */ = {
+			isa = PBXGroup;
+			children = (
+				EB960D3E26E0C29900EDB86A /* MaskView.m */,
+				EB960D3F26E0C29900EDB86A /* MaskConfigManager.m */,
+				EB960D4026E0C29900EDB86A /* TouchView.m */,
+				EB960D4126E0C29900EDB86A /* MaskView.h */,
+				EB960D4226E0C29900EDB86A /* TouchView.h */,
+				EB960D4326E0C29900EDB86A /* MaskConfigManager.h */,
+			);
+			path = Paint;
+			sourceTree = "<group>";
+		};
+		F32421701200DA9C129AC5C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58C85B1D29CBF2BA309090C5 /* Pods_LMymlLayMIrPic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB960C5D26E0755900EDB86A /* LMymlLayMIrPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB960C7226E0755C00EDB86A /* Build configuration list for PBXNativeTarget "LMymlLayMIrPic" */;
+			buildPhases = (
+				F4D442043F37944D1D266201 /* [CP] Check Pods Manifest.lock */,
+				EB960C5A26E0755900EDB86A /* Sources */,
+				EB960C5B26E0755900EDB86A /* Frameworks */,
+				EB960C5C26E0755900EDB86A /* Resources */,
+				90F975524B93665E46EECC32 /* [CP] Embed Pods Frameworks */,
+				B44B2654E3C7F20B606FD242 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMymlLayMIrPic;
+			productName = LMymlLayMIrPic;
+			productReference = EB960C5E26E0755900EDB86A /* LMymlLayMIrPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB960C5626E0755900EDB86A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EB960C5D26E0755900EDB86A = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = EB960C5926E0755900EDB86A /* Build configuration list for PBXProject "LMymlLayMIrPic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB960C5526E0755900EDB86A;
+			productRefGroup = EB960C5F26E0755900EDB86A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB960C5D26E0755900EDB86A /* LMymlLayMIrPic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB960C5C26E0755900EDB86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB960CC426E0762600EDB86A /* ic_c_us@2x.png in Resources */,
+				EB960CC926E0762600EDB86A /* ic_c_c@2x.png in Resources */,
+				EB960D1326E0BDDB00EDB86A /* mirrorSticker.json in Resources */,
+				EB960C6E26E0755C00EDB86A /* LaunchScreen.storyboard in Resources */,
+				EB960CB726E0762600EDB86A /* loding2.webp in Resources */,
+				EB960CC326E0762600EDB86A /* dialog-main.css in Resources */,
+				EB960CAE26E0762600EDB86A /* Untitled.html in Resources */,
+				EB960CC726E0762600EDB86A /* f000029293.png in Resources */,
+				EB960C6B26E0755C00EDB86A /* Assets.xcassets in Resources */,
+				EB960CC126E0762600EDB86A /* ic_c_s@3x.png in Resources */,
+				EB960D1426E0BDDB00EDB86A /* bgColor.json in Resources */,
+				EB960CBD26E0762600EDB86A /* ic_a_c@3x.png in Resources */,
+				EB960CD426E0762600EDB86A /* AdjustConfig.json in Resources */,
+				EB960CC826E0762600EDB86A /* detail.html in Resources */,
+				EB960C6926E0755900EDB86A /* Main.storyboard in Resources */,
+				EB960D1226E0BDDB00EDB86A /* layoutStyleList.json in Resources */,
+				EB960CE726E0774C00EDB86A /* GoogleService-Info.plist in Resources */,
+				EB960CFD26E0AB1200EDB86A /* Inter-Black.ttf in Resources */,
+				EB960CFE26E0AB1200EDB86A /* Inter-Regular.ttf in Resources */,
+				EB960CBE26E0762600EDB86A /* login.html in Resources */,
+				EB960CBF26E0762600EDB86A /* ic_a_c@2x.png in Resources */,
+				EB960CC626E0762600EDB86A /* log_in_close_ic@2x.png in Resources */,
+				EB960CC226E0762600EDB86A /* ic_c_us@3x.png in Resources */,
+				EB960D1126E0BDDB00EDB86A /* bgColorImg.json in Resources */,
+				EB960CCB26E0762600EDB86A /* ic_c_c@3x.png in Resources */,
+				EB960CC026E0762600EDB86A /* log_in_close_ic@3x.png in Resources */,
+				EB960CF826E079A900EDB86A /* SF-Pro-Text-Bold.otf in Resources */,
+				EB960CBB26E0762600EDB86A /* Loding1.gif in Resources */,
+				EB960CC526E0762600EDB86A /* ic_c_s@2x.png in Resources */,
+				EB960CFF26E0AB1200EDB86A /* Inter-SemiBold.ttf in Resources */,
+				EB960CCA26E0762600EDB86A /* InnLoginSubviews.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90F975524B93665E46EECC32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LMymlLayMIrPic/Pods-LMymlLayMIrPic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LMymlLayMIrPic/Pods-LMymlLayMIrPic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LMymlLayMIrPic/Pods-LMymlLayMIrPic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44B2654E3C7F20B606FD242 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LMymlLayMIrPic/Pods-LMymlLayMIrPic-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LMymlLayMIrPic/Pods-LMymlLayMIrPic-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LMymlLayMIrPic/Pods-LMymlLayMIrPic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D442043F37944D1D266201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMymlLayMIrPic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB960C5A26E0755900EDB86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB960CE326E0774C00EDB86A /* DataManager.swift in Sources */,
+				EB960CB126E0762600EDB86A /* InnTwoFactorLoginView.swift in Sources */,
+				EB960D1626E0BE5100EDB86A /* LMyLayoutCanvasView.swift in Sources */,
+				EB960CD626E0762600EDB86A /* HightLightingExtension.swift in Sources */,
+				EB960D0826E0BD8200EDB86A /* DaLMymDataManager.swift in Sources */,
+				EB960D3526E0C27800EDB86A /* IHymAddonManager.swift in Sources */,
+				EB960D0426E0BA5600EDB86A /* LmYmUNlockView.swift in Sources */,
+				EB960CB426E0762600EDB86A /* Foundation+Extension.swift in Sources */,
+				EB960CAD26E0762600EDB86A /* InnLoginHandler.swift in Sources */,
+				EB960D0C26E0BDA900EDB86A /* LMyMirrorEffectEditVC.swift in Sources */,
+				EB960D2426E0C04900EDB86A /* LMyLayoutWaterMarkBar.swift in Sources */,
+				EB960CAF26E0762600EDB86A /* InnTextView.swift in Sources */,
+				EB960CF026E0792000EDB86A /* LmymStoreVC.swift in Sources */,
+				EB960D3326E0C27800EDB86A /* IHymTextTouchView.swift in Sources */,
+				EB960CD326E0762600EDB86A /* ASAManage.swift in Sources */,
+				EB960C7826E0761700EDB86A /* LmYmMainVC.swift in Sources */,
+				EB960C6626E0755900EDB86A /* ViewController.swift in Sources */,
+				EB960D4D26E0C29900EDB86A /* TouchStuffView.m in Sources */,
+				EB960CD226E0762600EDB86A /* DataEncoding.swift in Sources */,
+				EB960D3426E0C27800EDB86A /* IHymTouchStuffView.swift in Sources */,
+				EB960CD126E0762600EDB86A /* AppIapConfig.swift in Sources */,
+				EB960D4E26E0C29900EDB86A /* TouchStuffViewPrivate.m in Sources */,
+				EB960CB826E0762600EDB86A /* InnLoginChallengeView.swift in Sources */,
+				EB960D4826E0C29900EDB86A /* UIView+Frame.m in Sources */,
+				EB960D2626E0C04900EDB86A /* LMyMirrorEffectBar.swift in Sources */,
+				EB960CCD26E0762600EDB86A /* InnLoginViewController.swift in Sources */,
+				EB960CB526E0762600EDB86A /* UIKitExtension.swift in Sources */,
+				EB960CEB26E0774C00EDB86A /* LMymAppeLoginManager.swift in Sources */,
+				EB960CF426E0798700EDB86A /* TEst.m in Sources */,
+				EB960CEC26E0774C00EDB86A /* APpLginVC.swift in Sources */,
+				EB960CBC26E0762600EDB86A /* InnLoginVerifyCodeView.swift in Sources */,
+				EB960CB026E0762600EDB86A /* InnNativeWebLoginViewController.swift in Sources */,
+				EB960D4C26E0C29900EDB86A /* TouchView.m in Sources */,
+				EB960D1A26E0BF2800EDB86A /* LyLYmALayoutDataManager.swift in Sources */,
+				EB960D0626E0BD3000EDB86A /* ITContentUnlockManager.swift in Sources */,
+				EB960CF626E0799C00EDB86A /* LmExtensionTool.swift in Sources */,
+				EB960C6226E0755900EDB86A /* AppDelegate.swift in Sources */,
+				EB960CCE26E0762600EDB86A /* HightLigtingUserManager.swift in Sources */,
+				EB960CB226E0762600EDB86A /* VC+Route.swift in Sources */,
+				EB960D3226E0C27800EDB86A /* IHymStickerTouchView.swift in Sources */,
+				EB960D2926E0C04900EDB86A /* LMyMirrorStickerBar.swift in Sources */,
+				EB960C6426E0755900EDB86A /* SceneDelegate.swift in Sources */,
+				EB960CE826E0774C00EDB86A /* LMymCoinMana.swift in Sources */,
+				EB960CEA26E0774C00EDB86A /* KeyCChain.swift in Sources */,
+				EB960D2726E0C04900EDB86A /* LMyMirrorEditCanvasView.swift in Sources */,
+				EB960CD726E0762600EDB86A /* AFlyerLibManage.swift in Sources */,
+				EB960CB626E0762600EDB86A /* StringExtension.swift in Sources */,
+				EB960D2C26E0C04900EDB86A /* LMyMirrorBorderBar.swift in Sources */,
+				EB960D1826E0BE7800EDB86A /* LmYmLayoutBgColorView.swift in Sources */,
+				EB960D4926E0C29900EDB86A /* UIColor+SSToolkitAdditions.m in Sources */,
+				EB960CB926E0762600EDB86A /* PublicFile.swift in Sources */,
+				EB960D2A26E0C04900EDB86A /* LMyLayoutBorderView.swift in Sources */,
+				EB960D4B26E0C29900EDB86A /* MaskConfigManager.m in Sources */,
+				EB960D2526E0C04900EDB86A /* LMyLayoutWatermarkOverlayer.swift in Sources */,
+				EB960D2826E0C04900EDB86A /* LMyLayoutMirrorEffectView.swift in Sources */,
+				EB960D0B26E0BDA900EDB86A /* LMyLayoutEditVC.swift in Sources */,
+				EB960CD526E0762600EDB86A /* HighLightingViewController.swift in Sources */,
+				EB960CCF26E0762600EDB86A /* HightLigtingHelper.swift in Sources */,
+				EB960D4A26E0C29900EDB86A /* MaskView.m in Sources */,
+				EB960CB326E0762600EDB86A /* SwiftyTimer.swift in Sources */,
+				EB960CBA26E0762600EDB86A /* InnRequestHelper.swift in Sources */,
+				EB960D2B26E0C04900EDB86A /* LMyMirrorPatternBar.swift in Sources */,
+				EB960CD026E0762600EDB86A /* HightLightingPriceManager.swift in Sources */,
+				EB960D0126E0B9F500EDB86A /* LmYmTypePreviewVC.swift in Sources */,
+				EB960CCC26E0762600EDB86A /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB960C6726E0755900EDB86A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB960C6826E0755900EDB86A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB960C6C26E0755C00EDB86A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB960C6D26E0755C00EDB86A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB960C7026E0755C00EDB86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB960C7126E0755C00EDB86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB960C7326E0755C00EDB86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922B1B48809AF2B4650A025F /* Pods-LMymlLayMIrPic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = 598UKLP25U;
+				INFOPLIST_FILE = LMymlLayMIrPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinyu.test.888888;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LMymlLayMIrPic/LMymlLayMIrPic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB960C7426E0755C00EDB86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9FF0F1AF5CB7BAD8794CD5 /* Pods-LMymlLayMIrPic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = 598UKLP25U;
+				INFOPLIST_FILE = LMymlLayMIrPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinyu.test.888888;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LMymlLayMIrPic/LMymlLayMIrPic-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB960C5926E0755900EDB86A /* Build configuration list for PBXProject "LMymlLayMIrPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB960C7026E0755C00EDB86A /* Debug */,
+				EB960C7126E0755C00EDB86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB960C7226E0755C00EDB86A /* Build configuration list for PBXNativeTarget "LMymlLayMIrPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB960C7326E0755C00EDB86A /* Debug */,
+				EB960C7426E0755C00EDB86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB960C5626E0755900EDB86A /* Project object */;
+}
